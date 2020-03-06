@@ -25,6 +25,11 @@ public class ConnectingVisualise : MonoBehaviour
         }
     }
 
+    void Update()
+    {
+        CheckTextStatus();
+    }
+
     //Main animation loop for changing colours
     IEnumerator ConnectingSequance()
     {
@@ -52,6 +57,7 @@ public class ConnectingVisualise : MonoBehaviour
         connected = (Random.value < 0.75f);
         isRunning = false;
         Debug.Log(connected);
+        CheckTextStatus();
         if (connected)
         {
             rend.material.color = Color.green;
@@ -94,22 +100,26 @@ public class ConnectingVisualise : MonoBehaviour
     void CheckTextStatus()
     {
         string statusText;
-        GameObject textBox = GameObject.FindGameObjectWithTag("StatusTextComponent");
+        GameObject textBox = GameObject.Find("StatusTextComponent");
   
         
         if (textBox != null)
         {
-            if (isRunning)
+           
+            if (isRunning && !connected)
             {
                 statusText = "Connecting";
             }
-
-            if (connected)
+            else if (connected)
             {
                 statusText = "Connected";
             }
-            else
+            else if (!connected)
+            {
                 statusText = "No connection/No power";
+            }
+            else
+                statusText = "No power";
 
             textBox.GetComponent<TextMeshPro>().text = statusText;
             Debug.Log(textBox.GetComponent<TextMeshPro>().text);
