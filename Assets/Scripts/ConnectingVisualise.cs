@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class ConnectingVisualise : MonoBehaviour
 {
@@ -20,12 +21,8 @@ public class ConnectingVisualise : MonoBehaviour
         {
             rend = GetComponent<Renderer>();
             timePassed = 0;
-            StartCoroutine(ConnectingSequance());
-            
+            StartCoroutine(ConnectingSequance());       
         }
-
-
-
     }
 
     //Main animation loop for changing colours
@@ -41,7 +38,7 @@ public class ConnectingVisualise : MonoBehaviour
         }
 
         isRunning = true;
-        while (timePassed < time)
+        while (timePassed < time && isRunning)
         {
 
             float lerp = Mathf.PingPong(Time.time, duration) / duration;
@@ -92,6 +89,32 @@ public class ConnectingVisualise : MonoBehaviour
         rend.material.color = Color.grey;
         yield return new WaitForSeconds(0.2f);
         rend.material.color = Color.green;
+    }
+
+    void CheckTextStatus()
+    {
+        string statusText;
+        GameObject textBox = GameObject.FindGameObjectWithTag("StatusTextComponent");
+  
+        
+        if (textBox != null)
+        {
+            if (isRunning)
+            {
+                statusText = "Connecting";
+            }
+
+            if (connected)
+            {
+                statusText = "Connected";
+            }
+            else
+                statusText = "No connection/No power";
+
+            textBox.GetComponent<TextMeshPro>().text = statusText;
+            Debug.Log(textBox.GetComponent<TextMeshPro>().text);
+        }
+        
     }
 
     /*void Update()

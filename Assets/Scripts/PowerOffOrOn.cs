@@ -11,7 +11,8 @@ public class PowerOffOrOn : MonoBehaviour
 
     public void PowerOff()
     {
-        //Object.GetComponent<ConnectingVisualise>().connected = false;
-        //Object.material = powerOffMaterial;
+        Object.GetComponent<ConnectingVisualise>().connected = false;
+        Object.GetComponent<ConnectingVisualise>().isRunning = false;
+        Object.material = powerOffMaterial;
     }
 }
