@@ -13,6 +13,15 @@ public class PowerOffOrOn : MonoBehaviour
     {
         Object.GetComponent<ConnectingVisualise>().connected = false;
         Object.GetComponent<ConnectingVisualise>().isRunning = false;
+        Object.GetComponent<ConnectingVisualise>().power = false;
         Object.material = powerOffMaterial;
+    }
+
+    public void PowerOn()
+    {
+        Object.GetComponent<ConnectingVisualise>().connected = false;
+        Object.GetComponent<ConnectingVisualise>().isRunning = false;
+        Object.GetComponent<ConnectingVisualise>().power = true;
+        Object.material = powerOnMaterial;
     }
 }

@@ -224,6 +224,7 @@ MonoBehaviour:
   time: 0
   isRunning: 0
   connected: 0
+  power: 0
 --- !u!114 &83919526
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -327,14 +328,14 @@ RectTransform:
   m_GameObject: {fileID: 571892478}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -1.07}
-  m_LocalScale: {x: 9.355981, y: 33.597614, z: 173.2137}
+  m_LocalScale: {x: 18.891598, y: 69.01394, z: 349.7531}
   m_Children: []
   m_Father: {fileID: 1837424790}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.325, y: 0.254}
+  m_AnchoredPosition: {x: -0.225, y: 0.1}
   m_SizeDelta: {x: 0.032, y: 0.01}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &571892480
@@ -355,7 +356,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Connecting
+  m_text: No power
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6a84f857bec7e7345843ae29404c57ce, type: 2}
   m_sharedMaterial: {fileID: 21202819797275496, guid: 6a84f857bec7e7345843ae29404c57ce,
@@ -422,13 +423,13 @@ MonoBehaviour:
   m_firstVisibleCharacter: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: -0.0022691963, z: 0, w: 0}
+  m_margin: {x: 0, y: -0.0022691963, z: -0.021626957, w: 0}
   m_textInfo:
     textComponent: {fileID: 571892480}
-    characterCount: 10
+    characterCount: 8
     spriteCount: 0
-    spaceCount: 0
-    wordCount: 1
+    spaceCount: 1
+    wordCount: 2
     linkCount: 0
     lineCount: 1
     pageCount: 1
@@ -1228,9 +1229,9 @@ MonoBehaviour:
     rotation: {x: 0, y: 0, z: 0, w: 1}
   - position: {x: 0.0040024817, y: 0.0073288083, z: 0.0058621466}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-  - position: {x: -0.12169826, y: 0.07692832, z: -0.2498002}
+  - position: {x: -0.29910117, y: 0.11188185, z: -0.2498002}
     rotation: {x: 0, y: 0, z: 0, w: 1}
-  - position: {x: 0.0010029078, y: 0.13724646, z: -0.2498002}
+  - position: {x: -0.1764, y: 0.1722, z: -0.2498002}
     rotation: {x: 0, y: 0, z: 0, w: 1}
   alignAllControlPoints: 1
 --- !u!114 &114494228845656000
@@ -1365,8 +1366,8 @@ MonoBehaviour:
   lineDataSource: {fileID: 114469680105456210}
   lineColor:
     serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 4.4460683e-21}
-    key1: {r: 1, g: 1, b: 1, a: 4.4460683e-21}
+    key0: {r: 1, g: 1, b: 1, a: 9.398258e-25}
+    key1: {r: 1, g: 1, b: 1, a: 9.398258e-25}
     key2: {r: 0, g: 0, b: 0, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1495,21 +1496,21 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 1.1610012, y: 0.2660022, z: 4.306002}
-  - {x: 1.1601801, y: 0.26827884, z: 4.303832}
-  - {x: 1.1565745, y: 0.27208802, z: 4.295611}
-  - {x: 1.150856, y: 0.27730265, z: 4.282258}
-  - {x: 1.1436967, y: 0.2837956, z: 4.264692}
-  - {x: 1.1357679, y: 0.2914397, z: 4.2438316}
-  - {x: 1.1277418, y: 0.30010793, z: 4.220596}
-  - {x: 1.12029, y: 0.30967304, z: 4.195904}
-  - {x: 1.1140844, y: 0.32000798, z: 4.170674}
-  - {x: 1.1097966, y: 0.3309856, z: 4.1458254}
-  - {x: 1.1080986, y: 0.34247875, z: 4.1222773}
-  - {x: 1.109662, y: 0.35436034, z: 4.100948}
-  - {x: 1.1151587, y: 0.3665032, z: 4.0827565}
-  - {x: 1.1252604, y: 0.37878025, z: 4.0686226}
-  - {x: 1.140639, y: 0.39106435, z: 4.059464}
-  - {x: 1.1619661, y: 0.4032284, z: 4.0562}
+  - {x: 1.1579142, y: 0.26872528, z: 4.303832}
+  - {x: 1.147945, y: 0.27378827, z: 4.295611}
+  - {x: 1.132396, y: 0.28093982, z: 4.282258}
+  - {x: 1.1125691, y: 0.28992862, z: 4.264692}
+  - {x: 1.0897667, y: 0.3005033, z: 4.2438316}
+  - {x: 1.0652909, y: 0.31241256, z: 4.220596}
+  - {x: 1.0404438, y: 0.32540506, z: 4.195904}
+  - {x: 1.0165277, y: 0.3392295, z: 4.170674}
+  - {x: 0.9948447, y: 0.35363448, z: 4.1458254}
+  - {x: 0.9766969, y: 0.36836872, z: 4.1222773}
+  - {x: 0.9633866, y: 0.38318086, z: 4.100948}
+  - {x: 0.9562159, y: 0.39781955, z: 4.0827565}
+  - {x: 0.956487, y: 0.41203356, z: 4.0686226}
+  - {x: 0.965502, y: 0.42557144, z: 4.059464}
+  - {x: 0.98456323, y: 0.4381819, z: 4.0562}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.01
@@ -1539,8 +1540,8 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 1, b: 1, a: 4.4460683e-21}
-      key1: {r: 1, g: 1, b: 1, a: 4.4460683e-21}
+      key0: {r: 1, g: 1, b: 1, a: 9.398258e-25}
+      key1: {r: 1, g: 1, b: 1, a: 9.398258e-25}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}

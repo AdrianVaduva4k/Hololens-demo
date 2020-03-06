@@ -14,6 +14,7 @@ public class ConnectingVisualise : MonoBehaviour
     public float time = 0;
     public bool isRunning = false;
     public bool connected = false;
+    public bool power = false;
 
     void Start()
     {
@@ -101,8 +102,6 @@ public class ConnectingVisualise : MonoBehaviour
     {
         string statusText;
         GameObject textBox = GameObject.Find("StatusTextComponent");
-  
-        
         if (textBox != null)
         {
            
