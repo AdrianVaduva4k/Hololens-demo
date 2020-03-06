@@ -1,0 +1,196 @@
+﻿  Building GameAssembly.dll with MsvcWinRtToolChain
+  	Msvc Install Version: 15.0
+  	Msvc Install SDK Directory: C:\Program Files (x86)\Windows Kits\10
+  	Msvc Linker Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\link.exe
+  	Msvc Compiler Path: C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.24.28314\bin\HostX64\x64\cl.exe
+  
+  	Output directory: C:\Hololens Projects\Hololens\App\build\bin\x64\Release
+  	Cache directory: C:\Hololens Projects\Hololens\App\build\obj\il2cppOutputProject\x64\Release
+  Il2CppMethodPointerTable.cpp
+  Il2CppInteropDataTable.cpp
+  Il2CppGenericMethodDefinitions.cpp
+  Il2CppGenericMethodPointerTable.cpp
+  Il2CppGenericClassTable.cpp
+  Il2CppGenericMethodTable.cpp
+  Bulk_Generics_48.cpp
+  GenericMethods1.cpp
+  Il2CppMetadataUsage.cpp
+  GenericMethods0.cpp
+  Bulk_Generics_2.cpp
+  Bulk_mscorlib_7.cpp
+  Il2CppAttributes.cpp
+  GenericMethods9.cpp
+  Bulk_Generics_3.cpp
+  Il2CppInvokerTable.cpp
+  GenericMethods5.cpp
+  Bulk_Generics_8.cpp
+  GenericMethods8.cpp
+  Bulk_Generics_1.cpp
+  Il2CppTypeDefinitions.cpp
+  Bulk_ProBuilderCore-Unity5_1.cpp
+  GenericMethods4.cpp
+  GenericMethods6.cpp
+  Bulk_Generics_55.cpp
+  GenericMethods10.cpp
+  GenericMethods7.cpp
+  Bulk_mscorlib_6.cpp
+  Bulk_Generics_56.cpp
+  Bulk_mscorlib_13.cpp
+  Il2CppGenericInstDefinitions.cpp
+  Bulk_Generics_0.cpp
+  Bulk_Generics_26.cpp
+  Il2CppComCallableWrappers12.cpp
+  Il2CppComCallableWrappers13.cpp
+  Bulk_Generics_10.cpp
+  Bulk_Generics_50.cpp
+  Il2CppComCallableWrappers28.cpp
+  Bulk_UnityEngine.CoreModule_0.cpp
+  Bulk_Generics_27.cpp
+  Il2CppComCallableWrappers24.cpp
+  Il2CppComCallableWrappers1.cpp
+  Bulk_UnityEngine.CoreModule_1.cpp
+  Il2CppComCallableWrappers30.cpp
+  Il2CppComCallableWrappers31.cpp
+  Il2CppComCallableWrappers23.cpp
+  Bulk_Generics_21.cpp
+  Bulk_Generics_58.cpp
+  Il2CppComCallableWrappers22.cpp
+  Il2CppComCallableWrappers0.cpp
+  Il2CppComCallableWrappers32.cpp
+  Il2CppComCallableWrappers27.cpp
+  Bulk_Generics_9.cpp
+  Bulk_Generics_39.cpp
+  Bulk_Generics_40.cpp
+  Il2CppComCallableWrappers18.cpp
+  Bulk_Generics_49.cpp
+  GenericMethods3.cpp
+  Il2CppComCallableWrappers19.cpp
+  Il2CppComCallableWrappers20.cpp
+  Il2CppComCallableWrappers16.cpp
+  Il2CppComCallableWrappers17.cpp
+  Il2CppComCallableWrappers29.cpp
+  Bulk_Generics_20.cpp
+  Bulk_Generics_57.cpp
+  Bulk_Generics_47.cpp
+  Il2CppComCallableWrappers26.cpp
+  Il2CppComCallableWrappers25.cpp
+  Il2CppComCallableWrappers11.cpp
+  UnresolvedVirtualCallStubs.cpp
+  Il2CppComCallableWrappers15.cpp
+  Il2CppComCallableWrappers14.cpp
+  Bulk_Generics_22.cpp
+  Bulk_Generics_37.cpp
+  Bulk_Generics_51.cpp
+  Il2CppComCallableWrappers5.cpp
+  Bulk_Generics_38.cpp
+  Bulk_Generics_11.cpp
+  Bulk_Generics_52.cpp
+  Il2CppComCallableWrappers9.cpp
+  Bulk_Generics_34.cpp
+  Il2CppComCallableWrappers21.cpp
+  Il2CppComCallableWrappers6.cpp
+  Bulk_Generics_44.cpp
+  Bulk_Generics_54.cpp
+  Bulk_Generics_7.cpp
+  Bulk_Generics_28.cpp
+  Bulk_Generics_60.cpp
+  Bulk_Generics_42.cpp
+  Bulk_Generics_41.cpp
+  Il2CppComCallableWrappers4.cpp
+  Il2CppComCallableWrappers10.cpp
+  Bulk_Generics_32.cpp
+  Il2CppComCallableWrappers3.cpp
+  Il2CppComCallableWrappers2.cpp
+  Bulk_Generics_25.cpp
+  Bulk_Generics_59.cpp
+  Bulk_Generics_62.cpp
+  Bulk_Generics_53.cpp
+  Bulk_Generics_45.cpp
+  Bulk_Generics_31.cpp
+  Bulk_Generics_36.cpp
+  Bulk_Generics_4.cpp
+  Bulk_Generics_46.cpp
+  Bulk_Generics_13.cpp
+  Bulk_Generics_15.cpp
+  Bulk_Generics_19.cpp
+  Bulk_Generics_43.cpp
+  Bulk_Generics_14.cpp
+  Bulk_Generics_61.cpp
+  Il2CppComCallableWrappers7.cpp
+  Il2CppProjectedComCallableWrapperMethods2.cpp
+  Bulk_Generics_18.cpp
+  Bulk_Generics_12.cpp
+  Bulk_Generics_33.cpp
+  Bulk_Generics_16.cpp
+  Bulk_Generics_17.cpp
+  Bulk_Generics_24.cpp
+  Bulk_Generics_35.cpp
+  Bulk_Generics_23.cpp
+  Bulk_Generics_30.cpp
+  Bulk_ProBuilderCore-Unity5_2.cpp
+  Il2CppCompilerCalculateTypeValues_39Table.cpp
+  Il2CppProjectedComCallableWrapperMethods0.cpp
+  Bulk_Generics_6.cpp
+  Il2CppProjectedComCallableWrapperMethods4.cpp
+  Bulk_Generics_29.cpp
+  GenericMethods2.cpp
+  Bulk_Generics_5.cpp
+  Il2CppCompilerCalculateTypeValues_45Table.cpp
+  Il2CppCompilerCalculateTypeValues_42Table.cpp
+  Il2CppGenericComDefinitions0.cpp
+  Il2CppProjectedComCallableWrapperMethods5.cpp
+  Il2CppCompilerCalculateTypeValuesTable.cpp
+  Bulk_UnityEngine.CoreModule_2.cpp
+  Il2CppCompilerCalculateTypeValues_43Table.cpp
+  Il2CppCompilerCalculateTypeValues_36Table.cpp
+  Bulk_Generics_63.cpp
+  Il2CppCompilerCalculateTypeValues_44Table.cpp
+  Il2CppCompilerCalculateTypeValues_32Table.cpp
+  Il2CppCompilerCalculateTypeValues_33Table.cpp
+  Il2CppCompilerCalculateTypeValues_35Table.cpp
+  Il2CppCompilerCalculateTypeValues_34Table.cpp
+  Il2CppCompilerCalculateTypeValues_23Table.cpp
+  Il2CppCompilerCalculateTypeValues_28Table.cpp
+  Il2CppCompilerCalculateTypeValues_16Table.cpp
+  Il2CppCompilerCalculateTypeValues_27Table.cpp
+  Il2CppCompilerCalculateTypeValues_25Table.cpp
+  Il2CppCompilerCalculateTypeValues_38Table.cpp
+  Bulk_UnityEngine.PhysicsModule_0.cpp
+  Il2CppCompilerCalculateTypeValues_31Table.cpp
+  Il2CppCompilerCalculateTypeValues_24Table.cpp
+  Il2CppCompilerCalculateTypeValues_37Table.cpp
+  Il2CppCompilerCalculateTypeValues_22Table.cpp
+  Il2CppCompilerCalculateTypeValues_26Table.cpp
+  Il2CppCompilerCalculateTypeValues_21Table.cpp
+  Bulk_Assembly-CSharp_0.cpp
+  Il2CppCompilerCalculateTypeValues_41Table.cpp
+  Il2CppCompilerCalculateTypeValues_40Table.cpp
+  Il2CppCompilerCalculateTypeValues_19Table.cpp
+  Il2CppCompilerCalculateTypeValues_29Table.cpp
+  Il2CppCompilerCalculateTypeValues_12Table.cpp
+  Il2CppCompilerCalculateTypeValues_30Table.cpp
+  Il2CppCompilerCalculateTypeValues_20Table.cpp
+  Il2CppCompilerCalculateTypeValues_18Table.cpp
+  Il2CppCompilerCalculateTypeValues_15Table.cpp
+  Il2CppCompilerCalculateTypeValues_17Table.cpp
+  Il2CppCompilerCalculateTypeValues_46Table.cpp
+  Bulk_UnityEngine.VehiclesModule_0.cpp
+  Il2CppComCallableWrappers33.cpp
+  Il2CppCodeRegistration.cpp
+  Il2CppMetadataRegistration.cpp
+  Bulk_ProBuilderCore-Unity5_0.cpp
+  ObjectFiles: 729 of which compiled: 173
+  	Time Compile: 46345 milliseconds Bulk_ProBuilderCore-Unity5_0.cpp
+  	Time Compile: 9440 milliseconds Il2CppComCallableWrappers26.cpp
+  	Time Compile: 9351 milliseconds Il2CppComCallableWrappers30.cpp
+  	Time Compile: 9347 milliseconds Il2CppComCallableWrappers25.cpp
+  	Time Compile: 8974 milliseconds Il2CppComCallableWrappers21.cpp
+  	Time Compile: 8544 milliseconds Il2CppComCallableWrappers15.cpp
+  	Time Compile: 8372 milliseconds Il2CppTypeDefinitions.cpp
+  	Time Compile: 8222 milliseconds Il2CppComCallableWrappers19.cpp
+  	Time Compile: 7939 milliseconds Il2CppComCallableWrappers23.cpp
+  	Time Compile: 7894 milliseconds Il2CppComCallableWrappers16.cpp
+  Total compilation time: 60734 milliseconds.
+  Creating library C:\Hololens Projects\Hololens\App\build\obj\il2cppOutputProject\x64\Release\linkresult_8234166955172160D6C66117DA78C53A\GameAssembly.lib and object C:\Hololens Projects\Hololens\App\build\obj\il2cppOutputProject\x64\Release\linkresult_8234166955172160D6C66117DA78C53A\GameAssembly.exp
+  Total link time: 10084 milliseconds.
+  Cleaned up 312 object files.
