@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Bdvj9lWDIjK2sn4y9O06r8b9OXlnopeg9Z5Q1sdlCL2zP565qb8mqqoYGPDj2iCqHlpGVln3+hu22j0wgReqbw==",
+  "success": true,
+  "projectFilePath": "C:\\Hololens Projects\\Hololens\\Assets\\MixedRealityToolkit.Providers\\WindowsMixedReality\\DotNetAdapter\\DotNetAdapter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\marap\\.nuget\\packages\\microsoft.windows.mixedreality.dotnetwinrt\\0.5.1048\\microsoft.windows.mixedreality.dotnetwinrt.0.5.1048.nupkg.sha512",
+    "C:\\Users\\marap\\.nuget\\packages\\msbuildforunity\\0.8.3\\msbuildforunity.0.8.3.nupkg.sha512",
+    "C:\\Users\\marap\\.nuget\\packages\\system.drawing.primitives\\4.3.0\\system.drawing.primitives.4.3.0.nupkg.sha512"
+  ],
+  "logs": []
+}
